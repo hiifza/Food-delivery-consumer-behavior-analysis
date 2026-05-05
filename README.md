@@ -1,149 +1,205 @@
-# 🍔 Consumer Behaviour Analysis in Food Delivery Platforms
+# 🍽️ Comparative Big Data–Driven Consumer Behaviour Analytics for Food Industry
 
-🚀 **Major Project – B.Tech CSE (6th Semester)**  
-Developed by a team of 5 students under the guidance of our faculty mentor.
+🚀 **Major Project – B.Tech CSE (Data Science, 6th Semester)**
+👥 Team of 5 Students | 🎓 IILM University, Greater Noida
 
 ---
 
 ## 📌 Project Overview
 
-This project focuses on analyzing **consumer behaviour in food delivery platforms** using **real-world survey data**. With the rapid growth of platforms like Zomato and Swiggy, understanding user preferences, spending habits, and ordering patterns has become essential.
+This project analyzes consumer behavior in online food delivery platforms such as Zomato and Swiggy using real-world survey data and machine learning.
 
-Unlike many studies that rely on pre-existing datasets, we **collected our own dataset (462 responses)** through a structured Google Form survey. This allowed us to work with **authentic, real-world behavioural data**.
+Unlike conventional approaches using pre-existing datasets, this project is based on **self-collected real-world data (462 responses)**, making the analysis more practical and realistic.
 
-The project combines:
-- 📊 Data Analysis  
-- 📈 Visualization  
-- 🤖 Machine Learning  
+The project evolved in **two phases**:
 
-to extract meaningful insights and predict user preferences.
+* **Phase 1:** Data analysis + Decision Tree (Research Paper Published)
+* **Phase 2:** Advanced ML models + Comparative Analysis
 
 ---
 
 ## 🎯 Objectives
 
-- To analyze food ordering behaviour using real-world data  
-- To identify patterns in spending, frequency, and ordering time  
-- To understand platform preference among users  
-- To build a machine learning model to predict delivery app usage  
+* Analyze food ordering behavior using real-world data
+* Perform Exploratory Data Analysis (EDA)
+* Build and compare multiple ML models
+* Improve prediction accuracy
+* Contribute to research work
 
 ---
 
 ## 📊 Dataset
 
-- 📌 Source: Self-collected via Google Form  
-- 📌 Total Responses: **462**  
-- 📌 Type: Categorical data  
+* 📌 Source: Google Forms Survey
+* 📌 Total Responses: **462**
+* 📌 Type: Categorical
 
-### Key Features:
-- Age Group  
-- Preferred Food Chains  
-- Preferred Cafes  
-- Eating Frequency  
-- Delivery Mode (Online/Offline)  
-- Order Value Range  
-- Time of Ordering  
-- Preferred Delivery Platform  
+### Features:
+
+* Age Group
+* Ordering Frequency
+* Spending Range
+* Preferred Delivery App
+* Time of Ordering
+* Food Preferences
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-We performed multiple visualizations to understand user behaviour:
+### Key Insights:
 
-- 💸 Most users prefer **₹200–500 spending range**
-- 🌙 **Nighttime** is the most popular ordering period
-- 📱 **Zomato** is the most preferred platform
-- 📅 Food ordering is mostly a **weekly habit**
-- 👩‍🎓 Younger users (18–21) are the most active
+* 💸 Majority spending range: ₹200–500
+* 📱 **Zomato dominates platform preference**
+* 🌙 Night is peak ordering time
+* 📅 Weekly ordering is most common
+* 👩‍🎓 Younger users are highly active
 
 ---
 
-## 🤖 Machine Learning Model
+## 🤖 Machine Learning Implementation
 
-We implemented a **Decision Tree Classifier** to predict the preferred food delivery platform.
+### 🔹 Phase 1: Baseline Model
 
-### Steps:
-- Data preprocessing and cleaning  
-- Label encoding for categorical features  
-- Train-test split (80:20)  
-- Model training and prediction  
+**Decision Tree Classifier**
 
-### 📊 Result:
-- **Accuracy: ~21.7%**
+* Accuracy: **47.8%**
 
-### 💡 Interpretation:
-The moderate accuracy reflects the **complex and unpredictable nature of human behaviour**, as user choices depend on multiple dynamic factors.
+➡️ Used for initial research publication
+
+---
+
+### 🔹 Phase 2: Advanced Models
+
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Decision Tree       | 47.8%    |
+| Random Forest       | 54.3%    |
+| Gradient Boosting   | 48.9%    |
+| Logistic Regression | 51.0%    |
+
+### ✅ Best Model:
+
+**Random Forest** performed best due to ensemble learning and better generalization.
+
+---
+
+## 📈 Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+
+---
+
+## 📄 Research Contribution
+
+📌 **First Research Paper Published (Janoli Journals)**
+Focus:
+
+* Consumer behavior insights
+* Data visualization
+* Decision Tree model
+
+📌 **Second Paper (In Progress)**
+
+* Comparative ML analysis
+* Model performance improvement
+* Ensemble learning impact
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-learn
+* Jupyter Notebook
 
 ---
 
-## 📂 Repository Contents
+## ⚠️ Limitations
 
-├── main.py #Core implementation
+* Moderate dataset size
 
-├── requirements.txt #Dependencies
+* Missing external factors:
 
-└── README.md #Project documentation
+  * Location
+  * Discounts
+  * Ratings
 
+* Human behavior variability
 
 ---
 
-## ⚠️ Note
+## 🚀 Future Work
 
-Due to submission constraints, only the main implementation file is included. The project, however, involves complete data analysis, visualization, and machine learning workflow.
+* Increase dataset size
+* Include real-time data
+* Apply advanced ML / Deep Learning
+* Improve prediction accuracy
+
+---
+
+## 📂 Repository Note
+
+This repository currently contains the core implementation.
+Full modular structure (EDA, preprocessing, models) can be extended in future updates.
+
+---
+
+## 📄 Research Paper
+
+🔗 **Published Paper (Janoli Journals):**
+[Click here to view the research paper](https://janolijournals.com/index.php/jijcse/article/view/326)
+
+### 📌 Paper Highlights:
+
+* Real-world consumer behavior analysis
+* Data-driven insights using EDA
+* Initial prediction using Decision Tree model
+
+---
+
+📌 **Upcoming Work:**
+Second research paper focusing on:
+
+* Comparative ML model analysis
+* Performance improvement
+* Ensemble techniques
 
 ---
 
 ## 👥 Team Members
 
-- Hifza Amir  
-- Keshav Bangia  
-- Himansh  
-- Janvi  
-- Akshat Arora  
-
-🎓 **B.Tech Computer Science & Engineering (6th Semester)**  
-🏫 IILM University, Greater Noida  
+* Hifza Amir
+* Keshav Bangia
+* Himansh
+* Janvi
+* Akshat Arora
 
 ---
 
 ## 👨‍🏫 Project Guide
 
-**Dr. Narendra Kumar**  
-Department of Computer Science and Engineering  
-IILM University, Greater Noida  
+Dr. Narendra Kumar
+Department of Computer Science & Engineering
+IILM University, Greater Noida
 
 ---
 
-## 📄 Research Work
+## 🎯 Key Takeaways
 
-This project has also been documented as a **research paper** and submitted for publication.
-
----
-
-## 🚀 Key Takeaways
-
-- Real-world data provides more meaningful insights than synthetic datasets  
-- Consumer behaviour is complex and influenced by multiple factors  
-- Machine learning can assist in prediction, but human decisions remain dynamic  
+* Real-world data provides more meaningful insights
+* Consumer behavior is complex and multi-factor dependent
+* Ensemble models improve prediction performance
 
 ---
 
 ## ⭐ Final Note
 
-This project demonstrates a **complete data-driven pipeline**, from data collection to analysis and prediction, and reflects our practical understanding of real-world problem solving.
+This project demonstrates the evolution from a basic ML model to an advanced comparative system, combining practical implementation with research contribution.
 
----
-
-✨ *Thank you for checking out our project!*
+✨ If you like this project, consider giving it a star!
