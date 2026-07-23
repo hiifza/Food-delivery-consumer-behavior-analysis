@@ -57,6 +57,25 @@ Unlike many studies that rely on publicly available datasets, this research is b
 
 ---
 
+> ## 📢 Project Evolution
+>
+> This repository contains the **original notebook-based implementation** developed as the baseline version of our B.Tech Major Project.
+>
+> A significantly improved and fully reproducible version of this work is now available, featuring:
+>
+> - Modular Python architecture
+> - Stratified 5-Fold Cross Validation
+> - Reproducibility validation
+> - Ablation study
+> - SHAP Explainability
+> - Statistical association analysis
+> - Publication-quality outputs
+> - Automated end-to-end pipeline
+>
+> 👉 **Latest Repository:** https://github.com/hiifza/consumer-behavior-food-delivery-ml
+>
+> This repository is preserved to document the original implementation and experimental baseline.
+
 ## 📊 Dataset Information
 
 | Attribute    | Description                |
